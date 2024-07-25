@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ccbd4d6bc1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./static/home.css" />
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <title>The Legend of Heroes: Trails in The Sky | Homepage</title>
+  </head>
+
+  <body>
+    <div class="screen">
+      <i class="fas fa-volume-mute" id="sound"></i>
+
+      <video autoplay loop muted id="videoBackground">
+        <source src="./assets/audio/vbg.mp4" type="video/mp4" />
+      </video>
+
+      <audio
+        loop
+        muted
+        src="./assets/audio/bgm.mp3"
+        type="audio/mp3"
+        id="backgroundMusic"
+      ></audio>
+
+      <audio id="audioClick">
+        <source src="./assets/audio/buttonClick.mp3" type="audio/mp3" />
+      </audio>
+
+      <audio id="audioHover">
+        <source src="./assets/audio/buttonHover.mp3" type="audio/mp3" />
+      </audio>
+      <div class="menu">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="../main.html">Return to Main Page</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./static/home.js"></script>
+  </body>
+</html>
